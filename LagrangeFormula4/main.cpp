@@ -99,7 +99,7 @@ void triangleCutter(vector <glm::vec3> & OV, vector <glm::vec3> & AV, vector <gl
 		}
 	}
 
-	cout << "Checking segments" << endl;
+	cout << endl << "Checking segments" << endl;
 
 
 	if (OV.size() == 3)
