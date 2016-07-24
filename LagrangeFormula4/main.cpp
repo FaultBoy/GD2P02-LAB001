@@ -60,7 +60,7 @@ float linePlaneIntersect(glm::vec3 N, glm::vec3 P, glm::vec3 P0, glm::vec3 P1, g
 	if (t == 0) {cout << " Intersection at first end point." << endl;		PossibleNew = P0;}
 	if (t == 1)	{cout << " Intersection at second end point." << endl;		PossibleNew = P1;}
 	if (t > 1)  {cout << " Intersection beyond second end point." << endl;}
-	if (t < 0)	{cout << " Intersection before first end point." << endl;}
+	if (t < 0)	{cout << " Intersection before first end point..." << endl;}
 
 	return t;
 }
